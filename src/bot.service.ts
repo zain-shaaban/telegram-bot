@@ -8,7 +8,6 @@ export class BotService implements OnModuleInit {
 
   async onModuleInit() {
     await this.bot.telegram.setMyCommands([
-      { command: 'start', description: 'Start the bot' },
       { command: 'help', description: 'How i can use the bot' },
     ]);
   }
