@@ -22,7 +22,7 @@ let messages = [
 ];
 
 @Update()
-export class TelegramUpdates {
+export class BotUpdates {
   private num = 4;
   @Start()
   async start(@Ctx() ctx: Context) {
